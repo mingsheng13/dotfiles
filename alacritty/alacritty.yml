@@ -1,0 +1,4 @@
+import:
+  - ~/.alacritty-colorscheme/themes/tokyo-night.yaml
+
+dynamic_title: true

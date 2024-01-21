@@ -1,0 +1,8 @@
+profile laptop_screen{
+	output eDP-1 enable scale 1.25
+}
+
+profile home_computer {
+	output eDP-1 disable
+	output DP-1 enable scale 1 mode 1920x1080@120Hz
+}

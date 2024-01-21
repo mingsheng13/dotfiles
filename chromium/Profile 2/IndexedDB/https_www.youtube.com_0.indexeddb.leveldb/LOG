@@ -1,0 +1,7 @@
+2023/12/27-18:10:55.157 8d3 Reusing MANIFEST /home/mingsheng/.config/chromium/Profile 2/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/27-18:10:55.157 8d3 Recovering log #3
+2023/12/27-18:10:55.159 8d3 Reusing old log /home/mingsheng/.config/chromium/Profile 2/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2023/12/27-19:18:37.805 8d4 Level-0 table #5: started
+2023/12/27-19:18:37.813 8d4 Level-0 table #5: 748187 bytes OK
+2023/12/27-19:18:37.815 8d4 Delete type=0 #3
+2023/12/27-19:18:37.816 8d4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
