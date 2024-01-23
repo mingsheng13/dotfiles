@@ -6,35 +6,17 @@
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0);
+    background-color: rgba(0, 0, 0, 0);
     transition-property: background-color;
     transition-duration: .5s;
     border-radius: 10;
 }
 
-window#waybar.hidden {
-    opacity: 0.2;
-}
-window#waybar.termite {
-    background-color: #3F3F3F;
-}
-
-window#waybar.chromium {
-    background-color: #000000;
-    border: none;
-}
-
 button {
-    /* padding */
     padding: 0 1.9em;
-    /* Use box-shadow instead of border so the text isn't offset */
     box-shadow: inset 0 -3px transparent;
-    /* Avoid rounded borders under each button name */
-    /* border: none;
-    border-radius: 0;*/
 }
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
     background: inherit;
     box-shadow: inset 0 -3px #ffffff;
@@ -75,6 +57,7 @@ button:hover {
 #language {
     padding: 0 5px;
     margin: 3 3px;
+
 }
 
 .modules-right,
@@ -82,9 +65,26 @@ button:hover {
 #workspaces {
     padding: 0 5px;
     margin: 3 3px;
-    background-color: rgba(72, 121, 197, 0.5);
+    background-color: rgba(72, 121, 197, 0.9);
     border-radius: 10;
+    color: #EAE4DB;
 }
+
+/*#tray {
+    color: #cdefab;
+}
+
+#tray > .active{
+    background-color: #222222;
+}
+
+#tray > .passive {
+    color: #abcdef;
+}
+
+#tray > .needs-attention {
+    color: #fedcba;
+}*/
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
@@ -116,3 +116,15 @@ button:hover {
 label:focus {
     background-color: #000000;
 }
+
+/*window#waybar.hidden {
+    opacity: 0.2;
+}
+window#waybar.termite {
+    background-color: #3F3F3F;
+}
+
+window#waybar.chromium {
+    background-color: #000000;
+    border: none;
+}*/
